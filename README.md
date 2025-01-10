@@ -1,0 +1,1 @@
+This example demonstrates a common issue in F#: the default immutability of values.  The function `addOne` takes an integer, adds one to it, and returns the result. However, it does *not* modify the original value `x`.  The output shows that `x` remains 10, while `y` is 11.  The solution shows how to achieve the expected behavior using mutable values and references.
